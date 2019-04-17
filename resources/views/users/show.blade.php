@@ -29,7 +29,11 @@
     {{-- Submitted Content --}}
     <div class="card ">
       <div class="card-body">
-        There is no extra data
+         <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active bg-transparent" href="#">The topic</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">The reply</a></li>
+        </ul>
+        @include('users._topics', ['topics' => $user->topics()->recent()->paginate(5)])
       </div>
     </div>
 
