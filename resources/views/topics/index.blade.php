@@ -1,7 +1,7 @@
 
 @extends('layouts.app')
 
-@section('title', '话题列表')
+@section('title', 'Topic list')
 
 @section('content')
 
@@ -17,9 +17,9 @@
       </div>
 
       <div class="card-body">
-        {{-- 话题列表 --}}
+        {{-- topic list --}}
         @include('topics._topic_list', ['topics' => $topics])
-        {{-- 分页 --}}
+        {{-- seperated pages --}}
         <div class="mt-5">
           {!! $topics->appends(Request::except('page'))->render() !!}
         </div>
