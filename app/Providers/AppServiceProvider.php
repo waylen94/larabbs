@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
 	{
+        ini_set("memory_limit", "1024M");
 		\App\Models\User::observe(\App\Observers\UserObserver::class);
 		\App\Models\Topic::observe(\App\Observers\TopicObserver::class);
 

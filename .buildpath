@@ -76,6 +76,11 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/ezyang/htmlpurifier/library">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/fideloper/proxy/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -182,6 +187,11 @@
 		</attributes>
 	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/mews/captcha/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/mews/purifier/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
