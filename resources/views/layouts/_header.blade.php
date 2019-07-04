@@ -37,6 +37,13 @@
               {{ Auth::user()->name }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            	@can('manage_contents')
+                <a class="dropdown-item" href="{{ url(config('administrator.uri')) }}">
+                  <i class="fas fa-tachometer-alt mr-2"></i>
+                  Administrator
+                </a>
+              <div class="dropdown-divider"></div>
+              @endcan
               <a class="dropdown-item" href="{{ route('users.show', Auth::id()) }}"><i class="far fa-user mr-2"></i>Profile</a>
               <a class="dropdown-item" href="{{ route('users.edit', Auth::id()) }}"> <i class="far fa-edit mr-2"></i>Modify</a>
               <div class="dropdown-divider"></div>
