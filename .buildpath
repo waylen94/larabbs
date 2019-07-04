@@ -416,6 +416,16 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
+	<buildpathentry excluding="controllers/" kind="src" path="vendor/summerblue/administrator/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/summerblue/administrator/src/controllers">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/summerblue/generator/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -522,6 +532,11 @@
 		</attributes>
 	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/tijsverkoyen/css-to-inline-styles/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/viacreative/sudo-su/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
