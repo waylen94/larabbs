@@ -37,10 +37,14 @@ return array(
      *  ]
      */
     'menu' => [
-        '用户与权限' => [
+        'roles and permissions' => [
             'users',
             'roles',
             'permissions',
+        ],
+        'content manipulate' => [
+            'categories',
+            'topics',
         ],
     ],
     
