@@ -46,6 +46,9 @@ return array(
             'categories',
             'topics',
         ],
+        'website management' => [
+            'settings.site',
+        ],
     ],
     
     /*
